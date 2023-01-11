@@ -1,0 +1,16 @@
+ ls
+    2  mkdir visa
+    3  cd visa
+    4  ls
+    5  ls -a   (this will sho hidden directories)
+    6  git init  ( color: red)
+   17  git add maya  ( will move file from working area to staging area: color green)
+   19  git status  (( will show your file state) 
+   20  git rm --cached may  ( this will take you from staging  area to working area: unstaging)   
+   27  git commit -m "this is personal"  ( take youfrom staging area to local repository : white )
+   32  cd .git
+   34  cat config ( will take to open the configuration file ) 
+   35  git config --global user.name "mmayakum"
+   36  git config --global user.email "mmayakum@gmail.com"
+git log    ( this will show all your commits and their IDs) 
+git commit -a ( this can be used on the file that has been modified to skip the staging area, it will move you to local repo)
